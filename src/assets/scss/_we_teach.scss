@@ -1,0 +1,47 @@
+.we_teach {
+    
+    .we_header {
+        color: $heading-color;
+        font-size: $heading-font;
+        font-weight: $heading-weight;
+        margin: 50px 0 30px 0;
+    }
+    .card_backg{
+        background-color: #FFFFFF;
+        color: black;
+        border-radius: 10px;
+        
+        .we_title {
+            color: #111;
+            margin: 10px;
+            padding: 20px 0 10px 0;
+            font-weight: 600;
+            position: relative;
+            border-bottom: 3px solid $bg-color ;
+        }   
+        .we_des {
+            display: inline-flex;
+            font-size: 111%;
+            margin: 15px 25px 15px 25px;
+            padding: 1px;
+            line-height: 5vh;
+            font-weight: 400;
+            height: 30vh;
+            overflow: hidden;
+            overflow-y: scroll;
+        }
+    }
+    .we_read {
+        // margin: 20px;
+        padding: 10px 0 20px;
+        color: $heading-color !important;
+        font-size: 3.5vh;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .we_header {
+        font-size: 3.5vh !important;
+    }
+}

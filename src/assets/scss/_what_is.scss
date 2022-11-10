@@ -1,0 +1,270 @@
+// .What_is_dione_academy {
+//   h6,
+//   p {
+//     font-family: sans-serif;
+//   }
+//   .c-heroImageGrid {
+//     position: relative;
+//     overflow: hidden;
+//     height: 50vw;
+//     // background: $primary-color;
+//     margin-bottom: 60px;
+//     .c-container {
+//       display: flex;
+//       align-items: flex-end;
+//       position: absolute;
+//       top: -20vw;
+//       left: -8vw;
+//       transform: rotateZ(45deg);
+//       height: 100vw;
+//       width: 107vw;
+//       .column {
+//         overflow: hidden;
+//         position: relative;
+//         &:nth-of-type(1) {
+//           border-right: 8px solid $primary-color;
+//           width: 25%;
+//           height: 66vw;
+//         }
+//         &:nth-of-type(1):hover {
+//           opacity: 0.75;
+//           cursor: pointer;
+//         }
+//         &:nth-of-type(1):before {
+//           position: absolute;
+//           top: 8.4vw;
+//           left: 8.1vw;
+//           background-repeat: no-repeat;
+//           background-size: cover;
+//           transform: rotateZ(-45deg);
+//           content: "";
+//           width: 37vw;
+//           height: 38vw;
+//           background-image: url(https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?cs=srgb&dl=beach-blur-boardwalk-132037.jpg&fm=jpg);
+//         }
+//         &:nth-of-type(2) {
+//           display: flex;
+//           flex-direction: column-reverse;
+//           width: 75%;
+//           height: 109.1vw;
+//           .row {
+//             border-top: 8px solid $primary-color;
+//             &:nth-of-type(1) {
+//               position: relative;
+//               overflow: hidden;
+//               height: 50vw;
+//             }
+//             &:nth-of-type(1):hover {
+//               opacity: 0.75;
+//               cursor: pointer;
+//             }
+//             &:nth-of-type(1):before {
+//               position: absolute;
+//               top: -10.1vw;
+//               left: -14.3vw;
+//               background-repeat: no-repeat;
+//               background-size: cover;
+//               transform: rotateZ(-45deg);
+//               content: "";
+//               width: 65vw;
+//               height: 39vw;
+//               background-image: url(https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?cs=srgb&dl=arch-bridge-clouds-814499.jpg&fm=jpg);
+//             }
+//             &:nth-of-type(2) {
+//               display: flex;
+//               height: 48.5vw;
+//               div {
+//                 &:nth-of-type(1) {
+//                   overflow: hidden;
+//                   width: 50%;
+//                   background-color: $bg-color;
+//                   .text {
+//                     width: 100%;
+//                     height: 100%;
+//                     overflow: visible;
+//                     transform: rotateZ(-45deg);
+//                     position: relative;
+//                     h6 {
+//                       position: absolute;
+//                       color: $heading-color;
+//                       text-transform: uppercase;
+//                       font-weight: bold;
+//                       font-size: 2.35vw;
+//                       width: 40vw;
+//                       text-align: center;
+//                       top: 12.5vw;
+//                       left: 2vw;
+//                       line-height: 1.55vw;
+//                     }
+//                     p {
+//                       text-align: center;
+//                       position: absolute;
+//                       color: #fff;
+//                       font-size: 1.3vw;
+//                       width: 45vw;
+//                       top: 16.5vw;
+//                       left: -1.2vw;
+//                     }
+//                     .topic {
+//                       position: absolute;
+//                       color: #fff;
+//                       width: 23vw;
+//                       top: 27vw;
+//                       left: 8vw;
+//                       line-height: 1.55vw;
+//                       h3 {
+//                         position: relative;
+
+//                         font-weight: bold;
+//                         font-size: 1.35vw;
+//                       }
+//                       h3:before {
+//                         content: "";
+//                         display: block;
+//                         width: 19px;
+//                         height: 5px;
+//                         background: $primary-color;
+//                         left: -39px;
+//                         top: 50%;
+//                         position: absolute;
+//                         border-bottom-right-radius: 50%;
+//                         border-top-right-radius: 50%;
+//                       }
+//                     }
+//                   }
+//                 }
+//                 &:nth-of-type(2) {
+//                   position: relative;
+//                   width: 50%;
+//                   border-left: 8px solid $primary-color;
+//                   overflow: hidden;
+//                 }
+//                 &:nth-of-type(2):hover {
+//                   opacity: 0.75;
+//                   cursor: pointer;
+//                 }
+//                 &:nth-of-type(2):before {
+//                   position: absolute;
+//                   top: -2vw;
+//                   left: -49vw;
+//                   width: 93.1vw;
+//                   height: 52vw;
+//                   background-repeat: no-repeat;
+//                   background-size: cover;
+//                   transform: rotateZ(-45deg);
+//                   content: "";
+//                   background-image: url(https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?cs=srgb&dl=adventure-calm-clouds-414171.jpg&fm=jpg);
+//                 }
+//               }
+//             }
+//             &:nth-of-type(3) {
+//               border-top: none;
+//               position: relative;
+//               height: 17.6vw;
+//               overflow: hidden;
+//             }
+//             &:nth-of-type(3):hover {
+//               opacity: 0.75;
+//               cursor: pointer;
+//             }
+//             &:nth-of-type(3):before {
+//               position: absolute;
+//               top: 6.5vw;
+//               left: 26vw;
+//               width: 33vw;
+//               height: 25vw;
+//               background-repeat: no-repeat;
+//               background-size: cover;
+//               transform: rotateZ(-45deg);
+//               content: "";
+//               background-image: url(https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+// .moblie {
+//   display: none;
+// }
+// @media only screen and (max-width: 426px) {
+//   .What_is_dione_academy {
+//     display: none;
+//   }
+//   .moblie {
+//     display: block;
+
+//     .text {
+//       width: 100vw;
+//       height: 100%;
+//       margin: 7vh 0;
+//       overflow: visible;
+//       h6 {
+//         color: $heading-color;
+//         text-transform: uppercase;
+//         font-weight: bold;
+//         font-size: 3vh;
+//         width: 80vw;
+//         margin: auto;
+//         margin-bottom: 17px;
+//         line-height: 1.55vw;
+//       }
+//       p {
+//         color: #fff;
+//         font-size: 2.5vh;
+//         margin: auto;
+//         // text-align: justify;
+//         width: 80vw;
+//       }
+//       .topic {
+//         color: #fff;
+//         display: block;
+//         margin-top: 20px;
+//         justify-content: center;
+//         line-height: 1.55vw;
+//         h3 {
+//           position: relative;
+//           padding-left: 10vw;
+
+//           font-size: 17px;
+//         }
+//         h3:before {
+//           content: "";
+//           display: block;
+//           width: 19px;
+//           height: 5px;
+//           background: $primary-color;
+//           left: 10px;
+//           top: 8px;
+//           position: absolute;
+//           border-bottom-right-radius: 50%;
+//           border-top-right-radius: 50%;
+//         }
+//       }
+//     }
+//   }
+// }
+.dione-list li,
+.dione-list {
+    background-color: transparent;
+    color: white;
+}
+.hadding {
+    color: $heading-color ;
+    .what {
+        color: #fa2c1d;
+        font-size: xx-large;
+    }
+}
+    .row-academy {
+        p {
+            font-size: 20px;
+        }
+        ul {
+            li {
+                font-size: 18px;
+            }
+        }
+    }
+    

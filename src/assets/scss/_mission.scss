@@ -1,0 +1,28 @@
+.mission_fluide {
+    background-color: #1F1F1F;
+  .mission {
+    .bg_mission {
+      background-color: #1F1F1F;
+      .mission_title {
+        color: $primary-color;
+        font-family: 'Nunito';
+      }
+      .mission_des {
+        font-size: 18px;
+        line-height: 5vh;
+        font-family: 'Nunito';
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 2560px) {
+  .mission_des {
+    padding-right: 40px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .mission_des {
+    font-size: 17px !important;
+    line-height: 3vh !important;
+  }
+}

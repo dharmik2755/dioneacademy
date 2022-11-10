@@ -1,0 +1,168 @@
+// header
+.header_info_bg {
+  background-color:  #162F5F;;
+}
+.header-nav {
+  height: 10vh !important;
+}
+@media only screen and (max-width: 425px) {
+  .header-nav {
+    height: 9vh !important;
+  }
+  .site-header {
+    height: 9vh !important;
+  }
+}
+.header_info {
+  padding: 0 !important;
+}
+.header_icon {
+  align-items: center;
+    display: flex;
+    justify-content: center;
+  .her_icon {
+    padding: 0 7px;
+    color: white;
+    margin-top: -4pt;
+    // height: 4vh;
+    .h_icon {
+      // margin-top: -66%;
+      // margin: -15px 2px 0 4px;
+      // height: 3vh;
+    }
+  }
+}
+.site-header {
+  height: 10vh;
+  // backdrop-filter: blur(10px);
+  background: #242527;
+}
+.herder_info_text {
+  font-size: inherit;
+}
+@media only screen and (max-width: 425px) {
+  .btn-info {
+    padding: 0 10px !important;
+  }
+  .headerLogo {
+    display: none;
+  }
+  .menuLogo {
+    display: inline !important;
+    width: 20% !important;
+  }
+  .menu {
+    font-size: x-large;
+  }
+  .h_icon {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 476px) and (max-width: 1024px) {
+}
+.line {
+  height: 7vh;
+  width: 1px;
+  background: $primary-color;
+  align-items: center;
+}
+
+.navbar-list a.active {
+  border-bottom: 2px solid $link-color;
+  // border-radius: 10px;
+  padding-bottom: 5px;
+  transition: 0.5s;
+}
+@media only screen and (max-width: 768px) {
+  .navbar-brand img {
+    width: 150px;
+    height: auto;
+  }
+  .navbar-toggler {
+    font-size: 10px;
+  }
+  .nav-button {
+    padding: 0 10px !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .j2l_logo {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+  .line2 {
+    height: 6vh;
+    width: 1px;
+    background: $primary-color;
+    align-items: center;
+    display: inline;
+  }
+  .herder_info_text {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 2560px) {
+  .j2l_2 {
+    display: none;
+  }
+  .menuLogo {
+    display: none;
+  }
+}
+
+.j2l_logo {
+  width: 9vh;
+  margin-left: 10px;
+}
+
+.menu_nav {
+  font-size: 20px !important;
+}
+.Inquire {
+  display: none !important;
+}
+.Inquire_button {
+  display: inline !important;
+  background-color: $primary-color;
+}
+@media only screen and (max-width: 991px) {
+  .Inquire {
+    display: inline !important;
+  }
+  .Inquire_button {
+    display: none !important;
+  }
+  .navbar-list {
+    background-color: $bg-color;
+    // width: 60%;
+    height: 100vh;
+  }
+}
+
+// menu
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.change {
+  .bar1 {
+    transform: translate(0, 9px) rotate(-45deg);
+  }
+  .bar2 {
+    opacity: 0;
+  }
+
+  .bar3 {
+    transform: translate(0, -9px) rotate(45deg);
+  }
+}

@@ -1,0 +1,44 @@
+.inquire_us {
+  .inquire_us_title {
+    color: $primary-color;
+    
+  }
+  .inquire_us_border {
+    border-top: 3px solid #162F5F;
+    .inquire_us_body {
+      border-radius: 10px;
+      input,
+      input::placeholder {
+        font: 20px sans-serif;
+      }
+      textarea,
+      textarea::placeholder {
+        font: 20px sans-serif;
+      }
+      .inquire_us_sub_title {
+        color: $primary-color;
+        
+      }
+      .inquire_us_btn {
+        justify-content: center;
+        button {
+          color: white;
+          background-color: #162F5F;
+          // width: fit-content;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .inquire_us_sub_title {
+    font-size: 17px;
+        padding-bottom: 22px !important;
+  }
+  .inquire_us_body {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-bottom: 12px !important;
+  }
+}
