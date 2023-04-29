@@ -5,7 +5,7 @@ import j2l_logo from "../assets/image/j2l_logo.png";
 import menuLogo from "../assets/image/favicon1.svg";
 // import menu from "../assets/image/menu.png";
 import {
-  //NavLink ,
+  NavLink ,
   Link,
 } from "react-router-dom";
 import { FaInstagram } from "react-icons/fa";
@@ -19,8 +19,24 @@ export default function Header() {
   const Callto = ({ phone, children }) => {
     return <a href={`tel:${phone}`} className="text-white text-decoration-none">{children}</a>;
   };
+  const handleClickinsta = () => {
+    window.open("https://www.instagram.com/dione_hub/?hl=en");
+  };
+  
+  const handleClickfacebook = () => {
+    window.open("https://www.facebook.com/DioneApps-106632712060664/?ref=pages_you_manage");
+  };
+  
+  const handleClicktwitter = () => {
+    window.open("https://twitter.com/DioneappsITC");
+  };
+  
+  const handleClicklinkedin = () => {
+    window.open("https://www.linkedin.com/company/74704565/admin/");
+  };
 
   return (
+    
     <>
       <div className="container-fluide header_info_bg">
         <div className="container">
@@ -29,23 +45,23 @@ export default function Header() {
               <div className="text-center p-1 herder_info_text">
                   academy@dioneapps.com <span className="px-2">|</span> 
                 {/* <Link className="text-white text-decoration-none" to={`tel:+91 81282 89918`}>+91 81282 89918 </Link> */}
-                <Callto phone="+91 72111 40033"> +91 72111 40033</Callto>
+                <Callto phone="+91 8128289918"> +91 81282 89918</Callto>
               </div>
             </div>
             <div className="col-lg-5 col-md-12 col-sm-12 d-md-block justify-content-center">
               <div className="text-center p-1 header_info">
                 <div className="social-icons header_icon">
                   <Link type="button" className="btn btn-lg her_icon">
-                    <FaInstagram className="h_icon" />
+                    <FaInstagram className="h_icon"  onClick={handleClickinsta} />
                   </Link>
                   <Link type="button" className="btn btn-lg her_icon">
-                    <FaFacebookF className="h_icon" />
+                    <FaFacebookF className="h_icon" onClick={handleClickfacebook} />
                   </Link>
                   <Link type="button" className="btn btn-lg her_icon">
-                    <BsTwitter className="h_icon" />
+                    <BsTwitter className="h_icon" onClick={handleClicktwitter} />
                   </Link>
                   <Link type="button" className="btn btn-lg her_icon">
-                    <FaLinkedinIn className="h_icon" />
+                    <FaLinkedinIn className="h_icon" onClick={handleClicklinkedin} />
                   </Link>
                 </div>
               </div>
@@ -166,6 +182,7 @@ export default function Header() {
                 <img src={j2l_logo} alt="Jump to learn logo"
                   className="w-50 h-25 ms-1 p-3 h-25 j2l_2"/>
               </Link>
+              
               {/* mobile menu button */}
               {/* <button className="navbar-toggler text-bg-black menu_nav" type="button"
               data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -178,6 +195,7 @@ export default function Header() {
                 <div className="bar3"></div>
               </div>
             </button> */}
+
               {/* web menu view */}
               {/* <div
               className="collapse navbar-list navbar-collapse w-50"
@@ -205,7 +223,7 @@ export default function Header() {
                         ? "nav-link active fs-5 text-white mx-3"
                         : "nav-link fs-5 text-white mx-3"
                     }
-                    to="/carrer"
+                    to="/Email"
                   >
                     Career
                   </NavLink>

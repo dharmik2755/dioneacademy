@@ -25,10 +25,7 @@ const Testimonials = () => {
             <h2>
               <img src={comma} alt="" />
             </h2>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
-            quibusdam inventore quod ratione error similique animi aperiam.
-            Doloremque, itaque praesentium. Iure id architecto labore, possimus
-            eaque error nisi facilis omnis?
+            THANK YOU so much Happins sir for making me learn Flutter more than my expectation. Compared to all the other institutes, I have been through I got a very good training under Happins. I feel very happy while come to know as he is a very good developer as well.
           </div>
         </div>
 
@@ -38,10 +35,7 @@ const Testimonials = () => {
             <h2>
               <img src={comma} alt="" />
             </h2>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
-            quibusdam inventore quod ratione error similique animi aperiam.
-            Doloremque, itaque praesentium. Iure id architecto labore, possimus
-            eaque error nisi facilis omnis?
+            Very helpful company for coaching of last year project in BCA. acadamy always taking care and very help full to us every time whenever we have query in project they will quick solve the query. I am very thankful for all Happines sir and dioneacademy team reason they help us every movement of our last year project. thanks you very much sir.
           </div>
         </div>
 

@@ -9,12 +9,9 @@ export default function We_teach() {
         <div className="col">
           <div className="text-center card_backg">
             <div className="card-body ">  
-              <h3 className="card-title we_title">C Programming</h3>
+              <h3 className="card-title we_title">C & C++</h3>
               <p className="card-text we_des">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium pellentesque lorem aliquam ac cursus quis et urna. Dui placerat sapien, tellus integer. Laoreet molestie. 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium pellentesque lorem aliquam ac cursus quis et urna. Dui placerat sapien, tellus integer. Laoreet molestie. 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium pellentesque lorem aliquam ac cursus quis et urna. Dui placerat sapien, tellus integer. Laoreet molestie. 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium pellentesque lorem aliquam ac cursus quis et urna. Dui placerat sapien, tellus integer. Laoreet molestie. 
+              Most of the theories related to computers like Computer Networks, Compiler Designing, Computer Architecture, and Operating Systems are based on C programming language and require a good knowledge of C programming if the student would like to be part of the IT industry. 
               </p>
             </div>
             {/* <div className="card-footer">
@@ -25,9 +22,9 @@ export default function We_teach() {
         <div className="col">
           <div className="text-center card_backg">
             <div className="card-body ">
-              <h3 className="card-title we_title">C++</h3>
+              <h3 className="card-title we_title">Development</h3>
               <p className="card-text we_des ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium pellentesque lorem aliquam ac cursus quis et urna. Dui placerat sapien, tellus integer. Laoreet molestie.
+              Web development is designing and coding a functional layout for your site and mobile, making sure it's compatible with all browsers, mobile devices, and other devices that might access the site. A well-designed website and mobile app will provide your business with sales growth and improve sales.
               </p>
             </div>
             {/* <div className="card-footer">
@@ -40,7 +37,7 @@ export default function We_teach() {
             <div className="card-body ">
               <h3 className="card-title we_title">Flutter</h3>
               <p className="card-text we_des">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium pellentesque lorem aliquam ac cursus quis et urna. Dui placerat sapien, tellus integer. Laoreet molestie.
+              Flutter is the future of mobile development and going to really take off in 2022. Flutter promises to solve the problem without compromising the natural look and feel, which is what most of the app developers want.
               </p>
             </div>
             {/* <div className="card-footer">

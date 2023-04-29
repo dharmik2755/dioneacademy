@@ -18,6 +18,10 @@
             font-weight: 600;
             position: relative;
             border-bottom: 3px solid $bg-color ;
+            align-items: center;
+            display: flex;
+            text-align: center;
+            justify-content: center;
         }   
         .we_des {
             display: inline-flex;
@@ -44,4 +48,16 @@
     .we_header {
         font-size: 3.5vh !important;
     }
+}
+
+
+
+@media only screen and (min-width: 1440px) and (max-width: 2560px) {
+    .we_des {
+        line-height: 3.5vh !important;
+    }
+    .we_header {
+        font-size: 4vh !important;
+    }
+    
 }

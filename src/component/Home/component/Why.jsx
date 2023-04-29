@@ -59,47 +59,121 @@ const WhatIsDioneAcademy = () => {
       </div> */}
       <div className="container">
         <div className="container-academy my-5">
-        <h2 className="featurette-heading text-uppercase mb-4 hadding">
-          What is Dione Academy <span className="what">?</span>
-        </h2>
+          <h2 className="featurette-heading text-uppercase mb-4 hadding">
+            Why Dione Academy <span className="what">?</span>
+          </h2>
           <div className="row featurette text-white row-academy ">
             <div className="col-md-6 sm-12 lg-6 justify-content-center ">
               <p className="mb-5 text-justify mt-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                morbi aliquam hendrerit nibh vel amet, enim molestie lectus.
-                Eget aliquam varius ut a, nibh malesuada lacus. Eu mauris
-                accumsan, mauris laoreet nisl donec. Tortor aliquam dignissim
-                varius purus dictum vitae. Tellus sed purus vulputate viverra
-                viverra integer commodo, ultricies vehicula. Tincidunt massa
-                nunc urna vitae lacus magna enim a.
-                varius purus dictum vitae. Tellus sed purus vulputate viverra
-                viverra integer commodo, ultricies vehicula. Tincidunt massa
-                nunc urna vitae lacus magna enim a.
+                We always believe that eveyone can become part of the IT
+                industry, as long as this is something they’re willing to do
+                about something. We created a solid setup where our instructors
+                share knowledge and experience gained through years of working
+                in IT and also our HR advisors provide you with guidance in
+                finding a job after the course.
               </p>
               <ul className="list-group dione-list">
                 <li className="list-group-item me-3 ">
-                  <span>
+                  <span className="sub_img" >
                     <img src={Line} alt="" className="me-3" />
                   </span>
-                  Requirement analysis.
+                  <div className="sub_des">
+                  Free Demo Class before Admission
+                  </div>
+                </li>
+                
+                {/*
+                <li className="list-group-item me-3">
+                  <span className="sub_img" >
+                    <img src={Line} alt="" className="me-3" />
+                  </span>
+                  <div className="sub_des">
+                  Updated and Customized Courses
+                  </div>
                 </li>
                 <li className="list-group-item me-3">
-                  <span>
+                  <span className="sub_img" >
                     <img src={Line} alt="" className="me-3" />
                   </span>
-                  Through client's bussiness.
+                  <div className="sub_des">
+                  Excellent Interpersonal And Group Communication Skills
+                  </div>
+                </li> 
+                <li className="list-group-item me-3">
+                  <span className="sub_img" >
+                    <img src={Line} alt="" className="me-3" />
+                  </span>
+                  <div className="sub_des">
+                  Flexible timing for betch.
+                  </div>
                 </li>
                 <li className="list-group-item me-3">
-                  <span>
+                  <span className="sub_img" >
                     <img src={Line} alt="" className="me-3" />
                   </span>
-                  Quality | Security audit.
+                  <div className="sub_des">
+                  Minimal batch strength in the class room.
+                  </div>
                 </li>
                 <li className="list-group-item me-3">
-                  <span>
+                  <span className="sub_img" >
                     <img src={Line} alt="" className="me-3" />
                   </span>
-                  Delivering last mile support.
+                  <div className="sub_des">
+                  Resonable and Flaxible Fees Structure.
+                  </div>
+                </li>
+                <li className="list-group-item me-3">
+                  <span className="sub_img" >
+                    <img src={Line} alt="" className="me-3" />
+                  </span>
+                  <div className="sub_des">
+                  Creative Facilitator For Collaborative Learning
+                  </div>
+                </li>
+                */}
+                <li className="list-group-item me-3">
+                  <span className="sub_img" >
+                    <img src={Line} alt="" className="me-3" />
+                  </span>
+                  <div className="sub_des">
+                  Deep Technical Knowledge Of Project Development
+                  </div>
+                </li>
+                
+                
+                
+                <li className="list-group-item me-3">
+                  <span className="sub_img" >
+                    <img src={Line} alt="" className="me-3" />
+                  </span>
+                  <div className="sub_des">
+                  Professional Guidance by professionals who are working to IT industries more than 12 years.
+                  </div>
+                </li>
+                <li className="list-group-item me-3">
+                  <span className="sub_img" >
+                    <img src={Line} alt="" className="me-3" />
+                  </span>
+                  <div className="sub_des">
+                  Hands on Practice | Live Project work
+                  </div>
+                </li>
+                <li className="list-group-item me-3">
+                  <span className="sub_img" >
+                    <img src={Line} alt="" className="me-3" />
+                  </span>
+                  <div className="sub_des">
+                  Interview Preparation
+                  </div>
+                </li>
+                <li className="list-group-item me-3">
+                  <span className="sub_img" >
+                    <img src={Line} alt="" className="me-3" />
+                  </span>
+                  <div className="sub_des">
+                  We are there to Assistance in Placement.
+                  </div>
                 </li>
               </ul>
             </div>

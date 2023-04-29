@@ -1,8 +1,9 @@
 .footer {
   position: relative;
-  border-top: 4px solid #162F5F;
+  border-top: 4px solid #162f5f;
   padding-top: 15vh;
   margin-top: 28vh !important;
+  font-weight: 200;
   iframe {
     position: absolute;
     top: -22vh;
@@ -62,6 +63,9 @@
       border-radius: 2px;
     }
   }
+  .footer_title {
+    font-size: 27px !important;
+  }
 }
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
@@ -75,5 +79,11 @@
       height: 32vh;
       border-radius: 15px;
     }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .courses {
+    display: none;
   }
 }

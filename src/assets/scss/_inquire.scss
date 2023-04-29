@@ -1,10 +1,9 @@
 .inquire_us {
   .inquire_us_title {
     color: $primary-color;
-    
   }
   .inquire_us_border {
-    border-top: 3px solid #162F5F;
+    border-top: 3px solid #162f5f;
     .inquire_us_body {
       border-radius: 10px;
       input,
@@ -17,15 +16,18 @@
       }
       .inquire_us_sub_title {
         color: $primary-color;
-        
       }
       .inquire_us_btn {
         justify-content: center;
         button {
           color: white;
-          background-color: #162F5F;
+          background-color: #162f5f;
           // width: fit-content;
         }
+      }
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
       }
     }
   }
@@ -34,7 +36,7 @@
 @media only screen and (max-width: 425px) {
   .inquire_us_sub_title {
     font-size: 17px;
-        padding-bottom: 22px !important;
+    padding-bottom: 22px !important;
   }
   .inquire_us_body {
     padding-left: 15px !important;

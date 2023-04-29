@@ -6,10 +6,24 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color:  #162F5F;
-        ;
+        background-color:  #FAFAFA;
+        transition: all .5s ease;
         img {
-            width: 50%;
+            width: 70%;
+        }
+        .img1 {
+            display: none;
+        }
+    }
+    .bxcd:hover {
+        background-color:  #162F5F;
+        .img2 {
+            display: none;
+        }
+        .img1 {
+            display: inline;
+            transition: all .5s ease;
         }
     }
 }
+

@@ -1,4 +1,4 @@
-@import 'bootstrap/dist/css/bootstrap.min.css';
+@import "bootstrap/dist/css/bootstrap.min.css";
 @import "veriable";
 @import "header";
 @import "banner";
@@ -6,38 +6,48 @@
 @import "about";
 @import "testimonials";
 @import "we_teach";
-@import "what_is";
+@import "why";
 @import "mission";
 @import "inquire";
 @import "footer";
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 html {
-    overflow-x: hidden;
-    ::-webkit-scrollbar {
-        width: 4px;
-    }
-    ::-webkit-scrollbar-thumb {
-        background-color: $primary-color;
-        border-radius: 20px;
-    }
-    ::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 6px transparent;
-    }
+  overflow-x: hidden;
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: $primary-color;
+    border-radius: 20px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px transparent;
+  }
 }
-body{
-    background-color: $bg-color;
-    color: $secondary-color;
-    font-family: 'Nunito';
+body {
+  background-color: $bg-color;
+  color: $secondary-color;
+  font-family: "Nunito";
 }
-.dark{
-    opacity: 0;
+.dark {
+  opacity: 0;
+}
+
+// container mediaquery
+
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 980px !important;
+  }
 }

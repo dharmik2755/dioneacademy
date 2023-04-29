@@ -18,7 +18,7 @@ export default function Banner() {
         autoplay={true}
         slidesToShow={1}
         slidesToScroll={1}
-        fade={true}
+        // fade={true}
       >
         <div>
           <img

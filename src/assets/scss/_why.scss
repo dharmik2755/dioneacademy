@@ -257,14 +257,20 @@
         font-size: xx-large;
     }
 }
-    .row-academy {
-        p {
-            font-size: 20px;
-        }
-        ul {
-            li {
-                font-size: 18px;
-            }
+.row-academy {
+    p {
+        font-size: 18px;
+    }
+    ul {
+        li {
+            font-size: 18px;
         }
     }
-    
+}
+
+.sub_img {
+    position: absolute;
+}
+.sub_des {
+    margin-left: 33px;
+}
